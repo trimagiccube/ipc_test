@@ -11,6 +11,7 @@ OBJS = $(SRCS:.c=.o)
 	# 可执行文件
 TARGETS = shmread shmwrite
 
+#${info ${OBJS}}
 # 默认目标
 all: $(TARGETS)
 
